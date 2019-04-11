@@ -13,11 +13,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-
-        /*alertDialogBuilder.setPositiveButton(CharSequence text, DialogInterface.OnClickListener listener);
-        alertDialogBuilder.setNegativeButton(CharSequence text, DialogInterface.OnClickListener listener);*/
     }
 
     public void open(View view){
